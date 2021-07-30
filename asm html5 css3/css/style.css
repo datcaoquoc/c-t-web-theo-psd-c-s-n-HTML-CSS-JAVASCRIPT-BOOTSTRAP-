@@ -1,0 +1,607 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.text-content {
+    font-family: Montserrat-Regular;
+}
+
+.display-1 {
+    font-size: 170%;
+    font-family: Montserrat-Bold;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: Montserrat-Regular;
+}
+
+.nav-link:hover {
+    transition: 1s;
+    color: aqua;
+}
+
+.btn {
+    width: 322px;
+    height: 65px;
+    border-radius: 65px;
+    background-color: #21243d;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 40%;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    transition: 1s;
+    color: #21243d;
+}
+
+.btn1:hover {
+    background-color: aliceblue;
+    transition: 1s;
+    color: #21243d;
+}
+
+.carousel-caption-1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.carousel-caption-2 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#section1 {
+    background-image: url("../images/section1.jpg");
+    width: 100%;
+    padding: 72px;
+    text-align: center;
+}
+
+.text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 71px;
+}
+
+.text-title {
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    font-size: 390%;
+    margin-bottom: 24px;
+}
+
+.text-title-1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    transition-timing-function: ease-in;
+}
+
+@keyframes text-title-1 {
+    0% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.text-content-1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 40px;
+}
+
+.hieuung-text-title-1 {
+    position: relative;
+    animation-name: text-title-1;
+    animation-duration: 3s;
+}
+
+.sp {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.hieuung1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#section2 {
+    background-image: url("../images/section2.jpg");
+    width: 100%;
+    height: 797px;
+    position: relative;
+}
+
+#text1 {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+}
+
+.sc {
+    padding: 0px;
+}
+
+.sc1 {
+    position: relative;
+    animation-name: text1;
+    animation-duration: 2.4s;
+}
+
+.sc2 {
+    position: relative;
+    animation-name: text1;
+    animation-duration: 2.6s;
+}
+
+.sc3 {
+    position: relative;
+    animation-name: text1;
+    animation-duration: 2.8s;
+}
+
+@keyframes text1 {
+    0% {
+        right: 100px;
+    }
+    75% {
+        right: -40px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.text-title-2 {
+    font-family: Montserrat-Bold;
+    font-size: 490%;
+}
+
+#hinhanh1 {
+    text-align: center;
+}
+
+.hinhanhcon1 {
+    display: inline-block;
+    margin-top: 35%;
+    margin-left: 120px;
+    border-radius: 50%;
+    width: 463px;
+}
+
+.hinh {
+    position: relative;
+    animation-name: hinhanhcon1;
+    animation-duration: 2.4s;
+}
+
+@keyframes hinhanhcon1 {
+    0% {
+        right: 300px;
+    }
+    75% {
+        right: -40px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.btn1 {
+    width: 322px;
+    height: 65px;
+    border-radius: 65px;
+    background-color: #21243d;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 165%;
+    border: none;
+}
+
+#section3 {
+    background-image: url("../images/section3.jpg");
+    width: 100%;
+    height: 100%;
+    padding: 92px;
+    text-align: center;
+}
+
+.img-section-3 {
+    position: relative;
+    animation-name: img-section-3;
+    animation-duration: 2s;
+}
+
+@keyframes img-section-3 {
+    0% {
+        left: 300px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.img3 {
+    position: relative;
+    animation-name: img3;
+    animation-duration: 2s;
+}
+
+@keyframes img3 {
+    0% {
+        right: 300px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.text-title-3 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    font-size: 390%;
+    margin-bottom: 24px;
+}
+
+.spp {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#section4 {
+    background-image: url("../images/section4.jpg");
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.text-title-4 {
+    font-family: Montserrat-Bold;
+    font-size: 490%;
+}
+
+.btn4 {
+    width: 322px;
+    height: 65px;
+    border-radius: 65px;
+    background-color: #21243d;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 165%;
+    border: none;
+}
+
+#hinhanh2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+}
+
+.hinhanhcon2 {
+    width: 464px;
+    margin-left: 250px;
+}
+
+.hieuung-img-2 {
+    position: relative;
+    animation-name: hieuung-text-2;
+    animation-duration: 2s;
+}
+
+.text2 {
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+}
+
+#section5 {
+    background-image: url("../images/section5.jpg");
+    width: 100%;
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.title {
+    font-family: Montserrat-Bold;
+}
+
+.text6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 170%;
+}
+
+#master {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.hieuung-text-2 {
+    position: relative;
+    animation-name: hieuung-text-2;
+    animation-duration: 2s;
+}
+
+@keyframes hieuung-text-2 {
+    0% {
+        bottom: 200px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+#master-text {
+    font-size: 250%;
+    color: #ffffff;
+}
+
+#master-text-2 {
+    font-size: 300%;
+    color: #ffffff;
+}
+
+#images-master {
+    border-radius: 50%;
+}
+
+#section6 {
+    background-image: url("../images/section6.jpg");
+    width: 100%;
+    height: 760px;
+    padding: 150px 0px;
+}
+
+.text6-hieuung {
+    position: relative;
+    animation-name: text6;
+    animation-duration: 2s;
+}
+
+@keyframes text6 {
+    0% {
+        bottom: 100px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+#email {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 63px;
+    margin-top: 50px;
+}
+
+#input {
+    border: none;
+    height: 63px;
+    width: 70%;
+    border-radius: 63px;
+    padding: 18px 30px;
+}
+
+#button {
+    border: none;
+    border-radius: 63px;
+    height: 63px;
+    width: 20%;
+    margin-left: 63px;
+    background-color: #21243d;
+}
+
+#footer {
+    background-color: #111111;
+    width: 100%;
+    height: 700px;
+    padding: 248px 88px;
+}
+
+#text-title-footer {
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+}
+
+#text-content-footer {
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+}
+
+.lg-footer {
+    margin-right: 10px;
+    transition: 2s;
+}
+
+.lg-footer:hover {
+    width: 45px;
+}
+
+.about {
+    font-size: 150%;
+    padding-top: 0px;
+}
+
+.link-footer {
+    padding: 0px 40px 0px 0px;
+}
+
+
+/* css product*/
+
+#sanpham {
+    margin-top: 100px;
+    background-color: #ffd17e;
+    width: 95%;
+    height: 1000px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 16px 0px rgba(138, 136, 138, 0.92);
+    padding: 100px 20px;
+}
+
+.sanpham-con {
+    width: 267px;
+    height: 370px;
+    margin: 10px 10px;
+    float: left;
+    padding: 3px 2.5px;
+    position: relative;
+}
+
+.sanpham-con img {
+    width: 100%;
+}
+
+.btn-sp {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    width: 100px;
+    height: 50px;
+    background-color: hsl(291, 50%, 35%);
+    opacity: 0;
+    border: none;
+}
+
+.sanpham-con .btn-sp:hover {
+    opacity: 0.9;
+}
+
+.sanpham-con img:hover {
+    width: 99.9%;
+}
+
+.sanpham-con:hover {
+    border: 2px solid #21243d;
+}
+
+.congcu {
+    width: 350px;
+    height: 500px;
+    background-color: #21243d;
+    float: left;
+    margin: 0px 30px 0px 0px;
+    padding: 20px 10px;
+    float: left;
+    box-shadow: 8px 10px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.item-sanpham {
+    padding: 10px 10px;
+    border-bottom: 1px solid orangered;
+    width: 100%;
+}
+
+.item-sanpham a:hover {
+    color: seagreen;
+}
+
+.congcu li a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
+
+.danhmuc {
+    width: 350px;
+    height: 100%;
+    float: left;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#danhsachsanpham li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#danhsachsanpham li a {
+    background-color: #e2e2e2;
+    cursor: default;
+}
+
+#danhsachsanpham li a:hover {
+    background-color: #eee;
+}
+
+.title-sp {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.title-sp:hover {
+    color: rgba(138, 136, 138, 0.92);
+    text-decoration: none;
+}
+
+.title-noidung {
+    text-align: center;
+}
+
+
+/* css promo */
+
+#video {
+    float: left;
+}
+
+#class {
+    margin-top: 100px;
+    width: 710px;
+    height: 400px;
+}
